@@ -1,0 +1,10 @@
+{
+  "name": "Deco Design",
+  "short_name": "Deco Design",
+  "theme_color": "#2bff00",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}

@@ -15,7 +15,7 @@
                         <ul id="navigation">
                            <li><a href="<?= base_url(); ?>">Home</a></li>
                            <li><a href="<?= base_url(); ?>Web/about">About Us</a></li>
-                           <li><a href="<?= base_url(); ?>Web/product">Product</a></li>
+                           <li><a href="<?= base_url(); ?>Web/products">Product</a></li>
                            <li>
                               <a href="#">Page</a>
                               <ul class="submenu">

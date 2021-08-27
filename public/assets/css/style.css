@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&amp;display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap);
+
 .gray-bg {
 	background: #f5f5f5
 }
@@ -9,14 +10,14 @@
 
 .boxed-btn {
 	background: #fff;
-	color: #C4FFBD!important;
+	color: #fd8f5f !important;
 	display: inline-block;
 	padding: 18px 44px;
 	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	border: 0;
-	border: 1px solid #C4FFBD;
+	border: 1px solid #fd8f5f;
 	letter-spacing: 3px;
 	text-align: center;
 	color: #fd8f5f;
@@ -26,7 +27,7 @@
 
 .boxed-btn:hover {
 	background: #fd8f5f;
-	color: #fff!important;
+	color: #fff !important;
 	border: 1px solid #fd8f5f
 }
 
@@ -201,7 +202,7 @@ li {
 }
 
 .btn {
-	background: #288012;
+	background: #fd8f5f;
 	text-transform: uppercase;
 	padding: 27px 44px;
 	color: #fff;
@@ -251,7 +252,7 @@ li {
 
 .btn:hover::before {
 	transform: scaleX(1);
-	color: #fff!important;
+	color: #fff !important;
 	z-index: -1
 }
 
@@ -268,8 +269,8 @@ li {
 }
 
 .border-btn {
-	border: 1px solid #288012;
-	color: #288012;
+	border: 1px solid #fd8f5f;
+	color: #fd8f5f;
 	background: none;
 	border-radius: 0;
 	text-transform: uppercase;
@@ -306,7 +307,7 @@ li {
 	top: 0;
 	width: 101%;
 	height: 101%;
-	background: #C4FFBD;
+	background: #fd8f5f;
 	z-index: -1;
 	transition: transform .5s;
 	transition-timing-function: ease;
@@ -327,7 +328,7 @@ li {
 }
 
 #back-top {
-	background: #288012;
+	background: #fd8f5f;
 	height: 50px;
 	width: 50px;
 	right: 31px;
@@ -440,6 +441,7 @@ li {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg)
 	}
+
 	to {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg)
@@ -450,6 +452,7 @@ li {
 	from {
 		-webkit-transform: rotate(0deg)
 	}
+
 	to {
 		-webkit-transform: rotate(360deg)
 	}
@@ -529,6 +532,7 @@ li {
 		-o-transition: .6s;
 		transition: .6s
 	}
+
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
@@ -735,8 +739,8 @@ li {
 	background: #f7f7fd
 }
 
-.header-area { 
-	background: #C4FFBD
+.header-area {
+	background: #f2e1d9
 }
 
 .header-area .main-header {
@@ -763,6 +767,7 @@ li {
 		padding-left: 270px;
 		padding-right: 50px
 	}
+
 	.header-area .main-header {
 		padding: 20px 20px
 	}
@@ -781,7 +786,7 @@ li {
 }
 
 .header-area .header-sticky.sticky-bar .menu-wrapper .header-left .logo {
-	display: none!important
+	display: none !important
 }
 
 .header-area .header-sticky.sticky-bar .menu-wrapper .header-left .logo2 {
@@ -923,13 +928,13 @@ li {
 }
 
 .header-area .menu-wrapper .main-menu ul ul.submenu>li>a {
-	padding: 6px 10px!important;
+	padding: 6px 10px !important;
 	font-size: 16px;
 	text-transform: capitalize
 }
 
 .header-area .menu-wrapper .main-menu ul ul.submenu>li>a:hover {
-	padding-left: 13px!important
+	padding-left: 13px !important
 }
 
 .header-area .menu-wrapper .main-menu ul ul.submenu::before {
@@ -950,7 +955,7 @@ li {
 }
 
 .header-sticky.sticky-bar {
-	background: #C4FFBD;
+	background: #f2e1d9;
 	padding-left: 85px;
 	padding-right: 30px;
 	box-shadow: none
@@ -986,7 +991,7 @@ li {
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul li a {
-	padding: 20px 20px!important
+	padding: 20px 20px !important
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -1081,7 +1086,7 @@ li {
 
 @media (max-width:575px) {
 	.header-right1 .form-box input::placeholder {
-		color: #fff!important
+		color: #fff !important
 	}
 }
 
@@ -1118,7 +1123,7 @@ li {
 	color: #fff;
 	font-size: 14px;
 	font-weight: 400;
-	background: #77FF60;
+	background: #fd8f5f;
 	border-radius: 30px;
 	cursor: pointer;
 	width: 22px;
@@ -1204,7 +1209,7 @@ li {
 	margin-top: -1px;
 	padding-right: 50px;
 	padding-bottom: 90px;
-	background: #C4FFBD;
+	background: #f2e1d9;
 	position: relative
 }
 
@@ -1559,9 +1564,9 @@ li {
 
 .properties .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-	color: #5EAA5D !important;
+	color: #fd8f5f !important;
 	background-color: #fff;
-	border-bottom: 2px solid #5EAA5D;
+	border-bottom: 2px solid #fd8f5f;
 	z-index: 9;
 	position: relative
 }
@@ -2008,7 +2013,7 @@ li {
 }
 
 .footer-area {
-	background: #2F4821;
+	background: #1d2547;
 	padding-left: 100px;
 	padding-right: 100px
 }
@@ -2096,7 +2101,7 @@ li {
 }
 
 .footer-bottom-area {
-	background: #2F4821
+	background: #1d2547
 }
 
 .footer-bottom-area .footer-border {
@@ -2947,7 +2952,7 @@ li {
 
 .product_description_area .nav.nav-tabs li a.active {
 	background: #fd8f5f;
-	color: #fff!important;
+	color: #fff !important;
 	border-color: #fd8f5f
 }
 
@@ -3156,7 +3161,7 @@ li {
 	font-weight: 500;
 	font-family: "Poppins", sans-serif;
 	color: #797979;
-	border-bottom: 0!important
+	border-bottom: 0 !important
 }
 
 .cart_inner .table tbody tr td {
@@ -3899,7 +3904,7 @@ li {
 }
 
 .cart_area .btn_1:hover {
-	border: 1px solid #fd8f5f!important
+	border: 1px solid #fd8f5f !important
 }
 
 .checkout-cap {
@@ -3954,7 +3959,7 @@ li {
 }
 
 .blog_area a {
-	color: "Poppins", sans-serif!important;
+	color: "Poppins", sans-serif !important;
 	text-decoration: none;
 	transition: .4s
 }
@@ -4251,7 +4256,7 @@ li {
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
 	background: #fd8f5f;
-	color: #fff!important;
+	color: #fff !important;
 	-webkit-text-fill-color: #fff;
 	text-decoration: none;
 	-webkit-transition: .5s;
@@ -4293,7 +4298,7 @@ li {
 	line-height: 45px;
 	width: 45px;
 	height: 45px;
-	border-radius: 0!important;
+	border-radius: 0 !important;
 	color: #8a8a8a;
 	border: 1px solid #f0e9ff;
 	margin-right: 10px
@@ -4565,9 +4570,11 @@ li {
 	.comments-area .comment-list .single-comment h5 {
 		font-size: 12px
 	}
+
 	.comments-area .comment-list .single-comment .date {
 		font-size: 11px
 	}
+
 	.comments-area .comment-list .single-comment .comment {
 		font-size: 10px
 	}
@@ -4668,7 +4675,7 @@ li {
 .comment-form textarea {
 	padding-top: 18px;
 	border-radius: 12px;
-	height: 100%!important
+	height: 100% !important
 }
 
 .comment-form ::-webkit-input-placeholder {
@@ -4763,7 +4770,7 @@ li {
 
 .form-contact textarea {
 	border-radius: 0;
-	height: 100%!important
+	height: 100% !important
 }
 
 .contact-section {
@@ -4797,11 +4804,12 @@ li {
 @media (max-width:767px) {
 	.gj-picker.gj-picker-md.timepicker {
 		width: 310px;
-		left: 6px!important
+		left: 6px !important
 	}
+
 	.gj-picker.gj-picker-md.datepicker.gj-unselectable {
 		width: 320px;
-		left: 0!important
+		left: 0 !important
 	}
 }
 
@@ -4809,14 +4817,14 @@ li {
 	background: -moz-linear-gradient(top, rgba(139, 129, 129, .4) 0%, rgba(141, 128, 130, .38) 1%, rgba(140, 129, 132, .36) 2%, rgba(142, 130, 130, .34) 3%, rgba(140, 128, 131, .32) 4%, rgba(142, 129, 132, .3) 5%, rgba(140, 129, 133, .28) 6%, rgba(143, 131, 131, .26) 7%, rgba(142, 130, 130, .24) 8%, rgba(143, 130, 130, .22) 9%, rgba(144, 130, 134, .2) 10%, rgba(143, 128, 133, .18) 11%, rgba(139, 128, 128, .16) 12%, rgba(137, 131, 131, .14) 13%, rgba(143, 128, 128, .12) 14%, rgba(136, 127, 127, .1) 15%, rgba(143, 133, 133, .08) 16%, rgba(146, 134, 134, .06) 17%, rgba(143, 128, 128, .05) 18%, rgba(139, 139, 139, .03) 19%, rgba(146, 146, 146, .02) 20%, rgba(0, 0, 0, 0) 21%, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0) 100%);
 	background: -webkit-linear-gradient(top, rgba(139, 129, 129, .4) 0%, rgba(141, 128, 130, .38) 1%, rgba(140, 129, 132, .36) 2%, rgba(142, 130, 130, .34) 3%, rgba(140, 128, 131, .32) 4%, rgba(142, 129, 132, .3) 5%, rgba(140, 129, 133, .28) 6%, rgba(143, 131, 131, .26) 7%, rgba(142, 130, 130, .24) 8%, rgba(143, 130, 130, .22) 9%, rgba(144, 130, 134, .2) 10%, rgba(143, 128, 133, .18) 11%, rgba(139, 128, 128, .16) 12%, rgba(137, 131, 131, .14) 13%, rgba(143, 128, 128, .12) 14%, rgba(136, 127, 127, .1) 15%, rgba(143, 133, 133, .08) 16%, rgba(146, 134, 134, .06) 17%, rgba(143, 128, 128, .05) 18%, rgba(139, 139, 139, .03) 19%, rgba(146, 146, 146, .02) 20%, rgba(0, 0, 0, 0) 21%, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0) 100%);
 	background: linear-gradient(to bottom, rgba(139, 129, 129, .4) 0%, rgba(141, 128, 130, .38) 1%, rgba(140, 129, 132, .36) 2%, rgba(142, 130, 130, .34) 3%, rgba(140, 128, 131, .32) 4%, rgba(142, 129, 132, .3) 5%, rgba(140, 129, 133, .28) 6%, rgba(143, 131, 131, .26) 7%, rgba(142, 130, 130, .24) 8%, rgba(143, 130, 130, .22) 9%, rgba(144, 130, 134, .2) 10%, rgba(143, 128, 133, .18) 11%, rgba(139, 128, 128, .16) 12%, rgba(137, 131, 131, .14) 13%, rgba(143, 128, 128, .12) 14%, rgba(136, 127, 127, .1) 15%, rgba(143, 133, 133, .08) 16%, rgba(146, 134, 134, .06) 17%, rgba(143, 128, 128, .05) 18%, rgba(139, 139, 139, .03) 19%, rgba(146, 146, 146, .02) 20%, rgba(0, 0, 0, 0) 21%, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#668b8181', endColorstr='#00000000', GradientType=0)
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#668b8181', endColorstr='#00000000', GradientType=0)
 }
 
 .hero-overly2::before {
 	background: -moz-linear-gradient(top, rgba(140, 130, 130, .4) 0%, rgba(143, 130, 133, .4) 46%, rgba(141, 128, 130, .38) 48%, rgba(141, 130, 133, .37) 49%, rgba(140, 129, 129, .36) 50%, rgba(139, 128, 130, .35) 51%, rgba(142, 130, 130, .34) 52%, rgba(143, 131, 131, .32) 55%, rgba(141, 129, 132, .31) 56%, rgba(142, 129, 132, .3) 57%, rgba(139, 129, 129, .28) 59%, rgba(140, 129, 133, .27) 60%, rgba(142, 131, 131, .26) 61%, rgba(140, 129, 129, .25) 62%, rgba(141, 129, 129, .24) 63%, rgba(143, 131, 131, .23) 64%, rgba(142, 130, 130, .22) 65%, rgba(142, 130, 130, .21) 66%, rgba(140, 127, 132, .2) 67%, rgba(139, 130, 130, .19) 68%, rgba(139, 130, 130, .18) 69%, rgba(142, 128, 128, .17) 70%, rgba(140, 130, 130, .16) 71%, rgba(141, 130, 135, .15) 72%, rgba(143, 128, 133, .14) 73%, rgba(142, 125, 130, .13) 74%, rgba(142, 130, 130, .12) 75%, rgba(140, 128, 134, .11) 76%, rgba(137, 124, 131, .1) 77%, rgba(145, 131, 131, .09) 78%, rgba(142, 128, 135, .09) 79%, rgba(139, 124, 131, .08) 80%, rgba(140, 132, 132, .08) 81%, rgba(144, 127, 127, .07) 82%, rgba(142, 123, 132, .07) 83%, rgba(143, 133, 133, .06) 84%, rgba(138, 128, 128, .05) 85%, rgba(134, 121, 121, .05) 86%, rgba(148, 134, 134, .05) 87%, rgba(142, 128, 128, .04) 88%, rgba(136, 119, 119, .04) 89%, rgba(137, 137, 137, .03) 90%, rgba(128, 128, 128, .03) 91%, rgba(142, 113, 113, .02) 92%, rgba(146, 146, 146, .02) 93%, rgba(128, 128, 128, .01) 94%, rgba(128, 128, 128, .01) 95%, rgba(255, 255, 255, 0) 96%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0) 100%);
 	background: -webkit-linear-gradient(top, rgba(140, 130, 130, .4) 0%, rgba(143, 130, 133, .4) 46%, rgba(141, 128, 130, .38) 48%, rgba(141, 130, 133, .37) 49%, rgba(140, 129, 129, .36) 50%, rgba(139, 128, 130, .35) 51%, rgba(142, 130, 130, .34) 52%, rgba(143, 131, 131, .32) 55%, rgba(141, 129, 132, .31) 56%, rgba(142, 129, 132, .3) 57%, rgba(139, 129, 129, .28) 59%, rgba(140, 129, 133, .27) 60%, rgba(142, 131, 131, .26) 61%, rgba(140, 129, 129, .25) 62%, rgba(141, 129, 129, .24) 63%, rgba(143, 131, 131, .23) 64%, rgba(142, 130, 130, .22) 65%, rgba(142, 130, 130, .21) 66%, rgba(140, 127, 132, .2) 67%, rgba(139, 130, 130, .19) 68%, rgba(139, 130, 130, .18) 69%, rgba(142, 128, 128, .17) 70%, rgba(140, 130, 130, .16) 71%, rgba(141, 130, 135, .15) 72%, rgba(143, 128, 133, .14) 73%, rgba(142, 125, 130, .13) 74%, rgba(142, 130, 130, .12) 75%, rgba(140, 128, 134, .11) 76%, rgba(137, 124, 131, .1) 77%, rgba(145, 131, 131, .09) 78%, rgba(142, 128, 135, .09) 79%, rgba(139, 124, 131, .08) 80%, rgba(140, 132, 132, .08) 81%, rgba(144, 127, 127, .07) 82%, rgba(142, 123, 132, .07) 83%, rgba(143, 133, 133, .06) 84%, rgba(138, 128, 128, .05) 85%, rgba(134, 121, 121, .05) 86%, rgba(148, 134, 134, .05) 87%, rgba(142, 128, 128, .04) 88%, rgba(136, 119, 119, .04) 89%, rgba(137, 137, 137, .03) 90%, rgba(128, 128, 128, .03) 91%, rgba(142, 113, 113, .02) 92%, rgba(146, 146, 146, .02) 93%, rgba(128, 128, 128, .01) 94%, rgba(128, 128, 128, .01) 95%, rgba(255, 255, 255, 0) 96%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0) 100%);
 	background: linear-gradient(to bottom, rgba(140, 130, 130, .4) 0%, rgba(143, 130, 133, .4) 46%, rgba(141, 128, 130, .38) 48%, rgba(141, 130, 133, .37) 49%, rgba(140, 129, 129, .36) 50%, rgba(139, 128, 130, .35) 51%, rgba(142, 130, 130, .34) 52%, rgba(143, 131, 131, .32) 55%, rgba(141, 129, 132, .31) 56%, rgba(142, 129, 132, .3) 57%, rgba(139, 129, 129, .28) 59%, rgba(140, 129, 133, .27) 60%, rgba(142, 131, 131, .26) 61%, rgba(140, 129, 129, .25) 62%, rgba(141, 129, 129, .24) 63%, rgba(143, 131, 131, .23) 64%, rgba(142, 130, 130, .22) 65%, rgba(142, 130, 130, .21) 66%, rgba(140, 127, 132, .2) 67%, rgba(139, 130, 130, .19) 68%, rgba(139, 130, 130, .18) 69%, rgba(142, 128, 128, .17) 70%, rgba(140, 130, 130, .16) 71%, rgba(141, 130, 135, .15) 72%, rgba(143, 128, 133, .14) 73%, rgba(142, 125, 130, .13) 74%, rgba(142, 130, 130, .12) 75%, rgba(140, 128, 134, .11) 76%, rgba(137, 124, 131, .1) 77%, rgba(145, 131, 131, .09) 78%, rgba(142, 128, 135, .09) 79%, rgba(139, 124, 131, .08) 80%, rgba(140, 132, 132, .08) 81%, rgba(144, 127, 127, .07) 82%, rgba(142, 123, 132, .07) 83%, rgba(143, 133, 133, .06) 84%, rgba(138, 128, 128, .05) 85%, rgba(134, 121, 121, .05) 86%, rgba(148, 134, 134, .05) 87%, rgba(142, 128, 128, .04) 88%, rgba(136, 119, 119, .04) 89%, rgba(137, 137, 137, .03) 90%, rgba(128, 128, 128, .03) 91%, rgba(142, 113, 113, .02) 92%, rgba(146, 146, 146, .02) 93%, rgba(128, 128, 128, .01) 94%, rgba(128, 128, 128, .01) 95%, rgba(255, 255, 255, 0) 96%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#668c8282', endColorstr='#00000000', GradientType=0)
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#668c8282', endColorstr='#00000000', GradientType=0)
 }
 
 .sample-text-area {
@@ -5208,16 +5216,16 @@ del {
 
 .single-gallery-image {
 	margin-top: 30px;
-	background-repeat: no-repeat!important;
-	background-position: center center!important;
-	background-size: cover!important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: cover !important;
 	height: 200px
 }
 
 .unordered-list li {
 	position: relative;
 	padding-left: 30px;
-	line-height: 1.82em!important
+	line-height: 1.82em !important
 }
 
 .unordered-list li:before {
@@ -5240,7 +5248,7 @@ del {
 	list-style-type: decimal-leading-zero;
 	color: #1f2b7b;
 	font-weight: 500;
-	line-height: 1.82em!important
+	line-height: 1.82em !important
 }
 
 .ordered-list li span {
@@ -5253,7 +5261,7 @@ del {
 	list-style-type: lower-alpha;
 	color: #1f2b7b;
 	font-weight: 500;
-	line-height: 1.82em!important
+	line-height: 1.82em !important
 }
 
 .ordered-list-alpha li span {
@@ -5266,7 +5274,7 @@ del {
 	list-style-type: lower-roman;
 	color: #1f2b7b;
 	font-weight: 500;
-	line-height: 1.82em!important
+	line-height: 1.82em !important
 }
 
 .ordered-list-roman li span {

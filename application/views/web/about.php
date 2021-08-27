@@ -95,6 +95,5 @@
          </div>
       </div>
    </div>
-   
-         <?php $this->load->view('web/footer_features'); ?>
+   <?php $this->load->view('web/footer_features'); ?>
 </main>

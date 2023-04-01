@@ -30,4 +30,31 @@ class Web extends CI_Controller {
 		$this->load->view('web/products');
 		$this->load->view('web/footer');
 	}
+	/**
+	 * Product Detailed Page for this controller. 
+	 *///$productID,$productSLUG
+	public function productsDetailed()
+	{
+		$this->load->view('web/header');
+		$this->load->view('web/product_details');
+		$this->load->view('web/footer');
+	}
+	/**
+	 * Cart 
+	 */
+	public function Cart()
+	{
+		$this->load->view('web/header');
+		$this->load->view('web/cart');
+		$this->load->view('web/footer');
+	}
+	/**
+	 * Checkout 
+	 */
+	public function Checkout()
+	{
+		$this->load->view('web/header');
+		$this->load->view('web/checkout');
+		$this->load->view('web/footer');
+	}
 }

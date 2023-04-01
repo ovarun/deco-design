@@ -13,12 +13,12 @@
                                  dolor interdum nulla.
                               </p>
                               <div class="hero__btn" data-animation="fadeInUp" data-delay=".7s">
-                                 <a href="<?= base_url(); ?>Web/industries" class="btn hero-btn">Discover More</a>
+                                 <a href="<?= base_url('Web/products'); ?>" class="btn hero-btn">Discover More</a>
                               </div>
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </div> 
                </div>
             </div>
          </div>

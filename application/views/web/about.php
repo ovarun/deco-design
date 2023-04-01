@@ -2,8 +2,8 @@
    <div class="slider-area ">
       <div class="slider-active slick-initialized slick-slider">
          <div class="slick-list draggable">
-            <div class="slick-track" style="opacity: 1; width: 1089px;">
-               <div class="single-slider hero-overly2  slider-height2 d-flex align-items-center slider-bg2 slick-slide slick-current slick-active" style="width: 1089px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="0" data-slick-index="0" aria-hidden="false">
+            <div class="slick-track">
+               <div class="single-slider hero-overly2  slider-height2 d-flex align-items-center slider-bg2 slick-slide slick-current slick-active" style="width: 100%; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="0" data-slick-index="0" aria-hidden="false">
                   <div class="container">
                      <div class="row">
                         <div class="col-xl-6 col-lg-8 col-md-8">
